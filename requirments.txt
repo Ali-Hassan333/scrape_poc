@@ -3,3 +3,4 @@ requests==2.26.0
 selenium==4.0.0
 pytesseract==0.3.8
 Pillow==8.4.0
+python-dotenv

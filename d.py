@@ -4,7 +4,7 @@ import re
 import time
 import json
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -17,7 +17,7 @@ from PIL import Image
 
 
 # ---- LOAD ENVIRONMENT VARIABLES ----
-load_dotenv()
+# load_dotenv()
 
 KLEINANZEIGEN_URL = os.getenv("KLEINANZEIGEN_URL")
 GROK_API_KEY = os.getenv("GROK_API_KEY")
